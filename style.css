@@ -52,10 +52,17 @@ li{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    max-height: 3rem;
+    align-items: center;
     justify-content: space-around;
     color:#8f8383;
     padding-left: 1.5rem;
     padding-top: 0.2rem;
+}
+li img{
+    height:100%;
+    width:auto;
+    margin-top:-0.3rem;
 }
 main{
     height:90vh;
@@ -93,7 +100,6 @@ aside{
 img{
     height:auto;
     width:100%;
-
 }
 
 @media screen and (max-width: 1260px){
@@ -106,10 +112,11 @@ img{
         height: 45%;
         padding-left: 0;
         text-align: center;
+        margin-top:-15%;
     }
     aside{
         height: 45%;
-        align-items: end;
+        align-items: center;
         padding-right:0;
     } 
 }
@@ -135,7 +142,7 @@ img{
         margin-bottom: 2rem;
     }
     .foto{
-        max-height: 14rem;
-        max-width: 14rem; 
+        max-height: 12rem;
+        max-width: 12rem; 
     }
 }
