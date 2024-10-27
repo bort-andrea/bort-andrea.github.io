@@ -204,6 +204,10 @@ img{
 }
 
 @media screen and (max-width: 900px){
+     body{        
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
     header{        
         display: flex;
         flex-direction: column;
