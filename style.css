@@ -134,4 +134,8 @@ img{
         padding-left: 0;
         margin-bottom: 2rem;
     }
+    .foto{
+        max-height: 14rem;
+        max-width: 16rem; 
+    }
 }
