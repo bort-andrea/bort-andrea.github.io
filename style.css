@@ -392,4 +392,8 @@ img{
         height: 1rem;
         width: 100%;
     }
+    .language:hover{
+        transform: none;
+        box-shadow: none;
+    }
 }
