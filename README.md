@@ -7,7 +7,7 @@ Welcome to the repository for my personal portfolio website! This site showcases
 This portfolio site is designed to give a comprehensive view of my skills and experience in an easy-to-navigate format. The site includes:
 - **Professional Summary:** An overview of my professional background and career objectives.
 - **Skills and Technologies:** A list of programming languages, frameworks, and tools I'm proficient in.
-- **Experience and Education:** Highlights from my career and academic journey.
+- **Portfolio:** Some examples of my works.
 - **Contact Information:** A form and social links for reaching out to me.
 
 ## 🌟 Features
