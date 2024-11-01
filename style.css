@@ -268,7 +268,7 @@ img{
     padding: 0.1rem;
 }
 .vid-img{
-    height:18rem ;
+    max-height:18rem ;
 }
 .descr{
     padding: 0 1.5rem 0.5rem 1rem;
