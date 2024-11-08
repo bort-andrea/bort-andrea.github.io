@@ -39,11 +39,19 @@ if(nome){
   }
 }
 /* ------------------------------------------------------------*/
-//Funzioni per scorrimento elementi in ingresso home
+FUNZIONE PER ANIMAZIONI SCORRIMENTO
 document.addEventListener("DOMContentLoaded", () => {
   const article = document.querySelector("main article");
   const aside = document.querySelector("main aside");
   const boxLi = document.querySelectorAll("header nav ul li");
+  const riquadro = document.querySelector(".about");
+  const about = document.querySelector(".about_header");
+  const foto = document.querySelector(".pic");
+  const pres = document.querySelector(".presentazione");
+  const contatti = document.querySelector(".contatti");
+  const skill = document.querySelector(".skills_header");
+  const linguaggio = document.querySelectorAll(".language");
+  const progetti = document.querySelectorAll(".progetto");
 
   if(aside){
     setTimeout(() => {
@@ -62,21 +70,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }else{
     boxLi.forEach((li)=>{ li.classList.add("visible")});
   }
-
-});
-/* ------------------------------------------------------------*/
-//Funzioni per scorrimento elementi in ingresso about
-
-document.addEventListener("DOMContentLoaded", () => {
-  const riquadro = document.querySelector(".about");
-  const about = document.querySelector(".about_header");
-  const foto = document.querySelector(".pic");
-  const pres = document.querySelector(".presentazione");
-  const contatti = document.querySelector(".contatti");
-  const skill = document.querySelector(".skills_header");
-  const linguaggio = document.querySelectorAll(".language");
-  
   if(pres){
+
     setTimeout(()=>{
       riquadro.classList.add("visible");
     },1);
@@ -106,12 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     },2100);
   }
-});
-/* ------------------------------------------------------------*/
-//Funzioni per scorrimento elementi in ingresso portfolio
-document.addEventListener("DOMContentLoaded", () =>{
-  const progetti = document.querySelectorAll(".progetto");
   if(progetti){
+
     progetti.forEach((item, index) => {
       setTimeout(() => {
         item.classList.add("visible");
