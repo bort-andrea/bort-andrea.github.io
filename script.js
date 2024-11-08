@@ -39,7 +39,7 @@ if(nome){
   }
 }
 /* ------------------------------------------------------------*/
-FUNZIONE PER ANIMAZIONI SCORRIMENTO
+/*FUNZIONE PER ANIMAZIONI SCORRIMENTO*/
 document.addEventListener("DOMContentLoaded", () => {
   const article = document.querySelector("main article");
   const aside = document.querySelector("main aside");
