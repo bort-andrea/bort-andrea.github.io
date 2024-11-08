@@ -472,7 +472,7 @@ header nav ul li{
     transform: translateX(-100vw);
 }
 .about{
-    transform: translateY(-100vw);
+    transform: translateY(100vw);
 }
 .language{
     transform: translateY(100vw);
